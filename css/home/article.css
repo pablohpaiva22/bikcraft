@@ -1,7 +1,3 @@
-.bikeList {
-    margin-bottom: 600px;
-}
-
 .bikeList-titulo {
     max-width: 1200px;
     margin: 0 auto;
@@ -44,4 +40,14 @@
 
 .bikeList-flex li p {
     padding: 0px 8px 8px 26px;
+}
+
+.bikeList-img {
+    border-radius: 8px;
+}
+
+@media(max-width: 800px) {
+    .bikeList-flex {
+        gap: 20px;
+    }
 }
