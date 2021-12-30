@@ -35,7 +35,7 @@
 }
 
 .modelo-text h2 {
-    padding: 12px 0 88px 0;
+    padding: 12px 0 60px 0;
 }
 
 .modelo-text h2 a {
@@ -84,6 +84,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: left;
 }
 
 @media(max-width: 800px) {
