@@ -71,12 +71,21 @@
     padding-bottom: 8px;
 }
 
-.modelo-text-flex h4::before {
+.icone-moto::before {
     content: "";
     width: 32px;
     height: 32px;
     display: block;
     background-image: url(../img/icones/eletrica.svg);
+    margin-bottom: 8px;
+}
+
+.icone-alvo::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    display: block;
+    background-image: url(../img/icones/rastreador.svg);
     margin-bottom: 8px;
 }
 
@@ -90,6 +99,19 @@
 @media(max-width: 800px) {
     .modelo {
         grid-template-columns: 1fr;
+        box-shadow: none;
+        margin-top: 40px;
+        padding-top: 60px;
+    }
+    .modelo-text {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .modelo-text-flex {
+        padding-bottom: 0;
+    }
+    .modelo-text span {
+        padding-top: 0;
     }
     .modelo-img {
         display: none;
@@ -99,8 +121,6 @@
 @media(max-width: 600px) {
     .modelo-text-flex {
         flex-direction: column;
-    }
-    .modelo-text-flex {
         gap: 16px;
     }
 }
