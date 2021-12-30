@@ -100,4 +100,7 @@
     .modelo-text-flex {
         flex-direction: column;
     }
+    .modelo-text-flex {
+        gap: 16px;
+    }
 }
