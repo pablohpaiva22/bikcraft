@@ -24,4 +24,20 @@
     padding-bottom: 32px;
     font-family: 'Merriweather', serif;
     font-weight: 900;
+    position: relative;
+}
+
+.citacao div p::before {
+    content: '"';
+    font-size: 3rem;
+    position: absolute;
+    left: -40px;
+    top: -10px;
+}
+
+.citacao div p::after {
+    content: '"';
+    font-size: 3rem;
+    position: absolute;
+    left: 64px;
 }
