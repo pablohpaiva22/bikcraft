@@ -5,7 +5,7 @@
 .parceiros-flex {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px 40px 20px;
+    padding: 0 20px 120px 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
