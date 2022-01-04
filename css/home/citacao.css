@@ -1,43 +1,40 @@
-.citacao {
+.depoimento {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 200px;
-    height: 500px;
     background: var(--cor-p1)
 }
 
-.citacao-img img {
-    width: 100%;
-    height: 500px;
+.depoimento-img img {
+    height: 100%;
     object-fit: cover;
-    box-sizing: border-box;
 }
-
-.citacao-text {
+.depoimento-content {
   padding: 40px 40px 80px 80px;
   align-self: end;
 }
 
-.citacao div p {
-    font-style: italic;
-    text-transform: initial;
-    padding-bottom: 32px;
+.depoimento-content p {
+    max-width: 32ch;
     font-family: 'Merriweather', serif;
+    font-style: italic;
     font-weight: 900;
+    padding-bottom: 32px;
     position: relative;
 }
 
-.citacao div p::before {
-    content: '"';
-    font-size: 3rem;
+.depoimento-content p::before {
+    content: "“";
+    font-size: 5rem;
+    color: var(--cor-p2);
     position: absolute;
-    left: -40px;
-    top: -10px;
+    top: -20px;
+    left: -50px;
 }
 
-.citacao div p::after {
-    content: '"';
-    font-size: 3rem;
+.depoimento-content p::after {
+    content: "”";
+    font-size: 5rem;
+    color: var(--cor-p2);
     position: absolute;
-    left: 64px;
 }
