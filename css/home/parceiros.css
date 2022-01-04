@@ -36,6 +36,9 @@
     .parceiros-flex {
         grid-template-columns: 1fr 1fr;
     }
+    .parceiros-flex li {
+        padding: 24px;
+    }
     .parceiros-flex li:nth-child(1),
     .parceiros-flex li:nth-child(2) {
         border-bottom: 2px solid var(--cor-3);
