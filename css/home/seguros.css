@@ -1,6 +1,5 @@
 .seguros {
     color: var(--cor-0);
-    margin-bottom: 200px;
     background: var(--cor-11);
 }
 
@@ -35,14 +34,15 @@
     flex-direction: column;
 }
 
+
+.seguros-content-block div:last-child span {
+    text-align: end;
+}   
+
 .seguros-content-block div:last-child span:last-child {
     text-align: end;
     font-size: 0.8rem;
     color: var(--cor-6);
-}
-
-.seguros-content-block ul {
-    padding-top: 20px;
 }
 
 .seguros-content-block ul li {
@@ -70,4 +70,10 @@
 .botao-gray {
     color: var(--cor-0);
     background: var(--cor-10);
+}
+
+@media (max-width: 800px) {
+    .seguros-content {
+        grid-template-columns: 1fr;
+    }
 }
