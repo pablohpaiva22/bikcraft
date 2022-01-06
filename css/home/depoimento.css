@@ -1,7 +1,6 @@
 .depoimento {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 200px;
     background: var(--cor-p1)
 }
 
