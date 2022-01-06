@@ -1,0 +1,29 @@
+.seguros {
+    background: var(--cor-10);
+    color: var(--cor-0);
+    margin-bottom: 200px;
+}
+
+.seguros h2 {
+    margin-bottom: 60px;
+    padding-top: 80px;
+    padding-left: 0;
+}
+
+.seguros-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.seguros-content-prata,
+.seguros-content-ouro {
+    background: var(--cor-11);
+    padding: 32px;
+}
+
+.seguros-content-prata div {
+    display: flex;
+    justify-content: space-between;
+}
