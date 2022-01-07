@@ -23,6 +23,14 @@
     color: var(--cor-4);
 }
 
+.footer-grid-info ul li a {
+    color: var(--cor-4);
+}
+
+.footer-grid-info ul li a:hover {
+    color: var(--cor-0);
+}
+
 .footer-grid-info div {
     display: flex;
     gap: 32px;
