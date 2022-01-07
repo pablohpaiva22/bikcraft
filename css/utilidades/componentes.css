@@ -12,6 +12,16 @@
     cursor: pointer;
 }
 
+.botao.secundario {
+  background: var(--cor-10);
+  color: var(--cor-0);
+}
+
+.botao.secundario:hover {
+  background: var(--cor-8);
+  color: var(--cor-0);
+}
+
 .botao:hover {
     background: linear-gradient(#ffb60d, #e59317);
   }

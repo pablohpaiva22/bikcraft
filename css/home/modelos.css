@@ -75,7 +75,7 @@
     width: 32px;
     height: 32px;
     display: block;
-    background-image: url(../img/icones/eletrica.svg);
+    background-image: url(../../img/icones/eletrica.svg);
     margin-bottom: 8px;
 }
 
@@ -84,7 +84,7 @@
     width: 32px;
     height: 32px;
     display: block;
-    background-image: url(../img/icones/rastreador.svg  );
+    background-image: url(../../img/icones/rastreador.svg  );
     margin-bottom: 8px;
 }
 
