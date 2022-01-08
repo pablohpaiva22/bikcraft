@@ -61,12 +61,47 @@
 }
 
 .biks-content a {
+    display: flex;
     place-self: end;
+    align-items: center;
+}
+
+.biks-content a::after {
+    content: "";
+    background: no-repeat url(../../img/icones/seta.svg);
+    display: inline-block;
+    width: 24px;
+    height: 12px;
+    margin-left: 8px;
+    transition: transform 0.3s;
+}
+
+.biks-content a:hover:after {
+    transform: translateX(4px);
+}
+
+.biks-bg {
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-12) 0%);
+}
+
+.biks-content h3.magic {
+    color: var(--cor-0);
+}
+
+.biks-content p.magic {
+    color: var(--cor-5);
+}
+
+.biks-content ul.magic {
+    color: var(--cor-5);
 }
 
 @media(max-width: 800px) {
     .biks {
         grid-template-columns: 1fr;
+    }
+    .biks-bg {
+        background: var(--cor-12);
     }
 }
 
