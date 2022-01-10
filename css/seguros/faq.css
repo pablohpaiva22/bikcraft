@@ -3,20 +3,20 @@
     margin-bottom: 60px;
 }
 
-.faq div {
+.faq dl {
     padding: 16px 16px 16px 32px;
     position: relative;
 }
 
-.faq div:nth-child(even) {
+.faq dl:nth-child(even) {
     background: var(--cor-1);
 }
 
-.faq div:last-child {
+.faq dl:last-child {
     margin-bottom: 104px;
 }
 
-.faq div dt {
+.faq dl dt {
     padding-bottom: 16px;
     position: relative;
     display: flex;
@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-.faq div dt::before {
+.faq dl dt::before {
     content: "";
     display: inline-block;
     width: 12px;
@@ -35,13 +35,13 @@
     top: 8px;
 }
 
-.faq div dt::after {
+.faq dl dt::after {
     content: "";
     background: no-repeat url(../../img/icones/seta-abrir.svg);
     width: 34px;
     height: 6px;
 }
 
-.faq div dd {
+.faq dl dd {
     max-width: 75ch;
 }
