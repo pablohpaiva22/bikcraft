@@ -55,3 +55,10 @@
         gap: 20px;
     }
 }
+
+/* BikeList | magic-might */
+
+#magic .bikeList-flex {
+    max-width: 1200px;
+    margin-bottom: 120px;
+}
