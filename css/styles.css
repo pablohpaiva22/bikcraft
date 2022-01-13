@@ -16,4 +16,5 @@
 @import url('./seguros/seguros-2.css');
 @import url('./seguros/vantagens.css');
 @import url('./seguros/faq.css');
-@import url('./bicicletas-modelos/magic-might.css');
+@import url('./bicicletas-modelos/migic-might/magic-might.css');
+@import url('./bicicletas-modelos/migic-might/seguros-prop.css');

@@ -1,0 +1,35 @@
+.seguros-prop-bg {
+    background: var(--cor-11);
+    box-shadow: inset 0 120px 0 var(--cor-0), inset 0 -120px 0 var(--cor-12);
+}
+
+.seguros-prop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.seguros-prop-img {
+    height: 100%;
+}
+
+.seguros-prop-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.seguros-prop-content {
+    padding: 0 0 40px 40px;
+}
+
+.seguros-prop-content h2 {
+    padding: 180px 0 40px 0;
+}
+
+.seguros-prop-content p {
+    padding-bottom: 20px;
+}
+
+.seguros-prop-content a {
+    margin-bottom: 120px;
+}
