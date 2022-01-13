@@ -55,6 +55,8 @@
 }
 
 .bicicleta-descricao ul li {
+    display: flex;
+    gap: 8px;
     background: var(--cor-12);
     padding: 4px;
     border-radius: 4px;
