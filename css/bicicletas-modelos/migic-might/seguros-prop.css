@@ -6,6 +6,7 @@
 .seguros-prop {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
 .seguros-prop-img {
@@ -19,7 +20,7 @@
 }
 
 .seguros-prop-content {
-    padding: 0 0 40px 40px;
+    padding-bottom:40px;
 }
 
 .seguros-prop-content h2 {
