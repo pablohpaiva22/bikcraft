@@ -1,0 +1,75 @@
+.mapas-bg {
+    background: var(--cor-1);
+}
+
+.mapas h1 {
+    padding-bottom: 60px;
+}
+
+.mapas-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 60px;
+}
+
+.mapas-cidades {
+    background: var(--cor-0);
+    border-radius: 4px;
+}
+
+.mapas-img img {
+    border-radius: 4px 4px 0 0;
+}
+
+.mapas-content {
+    padding: 32px;
+}
+
+.mapas-content h2 {
+    padding-bottom: 32px;
+}
+
+.mapas-endereco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    position: relative;
+    padding-bottom: 32px;
+}
+
+.mapas-endereco p {
+    padding: 2px 0 2px 12px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-left: 2px solid var(--cor-2);
+}
+
+.mapas-info {
+    display: flex;
+    gap: 8px;
+    padding-left: 4px;
+}
+
+.mapas-info::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url('../../img/icones/horario.svg') no-repeat;
+    display: block;
+}
+
+@media(max-width: 800px) {
+    .mapas-endereco {
+        grid-template-columns: 1fr;
+    }
+    .mapas-container {
+        gap: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .mapas-container {
+        grid-template-columns: 1fr;
+    }
+}
