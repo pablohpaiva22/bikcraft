@@ -45,6 +45,14 @@
     border-left: 2px solid var(--cor-2);
 }
 
+.mapas-endereco a {
+    display: inline-block;
+    padding: 2px 0 2px 12px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-left: 2px solid var(--cor-2);
+}
+
 .mapas-info {
     display: flex;
     gap: 8px;
