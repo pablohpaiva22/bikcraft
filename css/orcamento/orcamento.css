@@ -1,0 +1,83 @@
+#orcamento .contato-info {
+    color: var(--cor-1)
+}
+
+#orcamento .contato-info h2 {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+#orcamento .contato-info h2::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    background: var(--cor-p1);
+    position: absolute;
+    top: 4px;
+    left: -12px;    
+}
+
+.orcamento-escolha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.orcamento-escolha div {
+    background: var(--cor-10);
+    padding: 16px 32px 16px 16px;  
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+.orcamento-escolha div:hover {
+    background: var(--cor-9);
+}
+
+.orcamento-escolha input {
+    margin-right: 4px;
+}
+
+.orcamento-escolha label {
+    color: var(--cor-4);
+}
+
+#orcamento .form h2 {
+    position: relative;
+}
+
+#orcamento .form span {
+    position: relative;
+    grid-column: 1 / -1;
+}
+
+#orcamento .form span::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    background: var(--cor-p1);
+    position: absolute;
+    top: 4px;
+    left: -12px;
+}
+
+#orcamento .form div:nth-child(3) {
+    grid-column: initial;
+}
+
+#orcamento .form div:nth-child(5) {
+    grid-column: 1 / -1;
+}
+
+#orcamento .contato-bg {
+    background: var(--cor-11);
+    box-shadow: inset 0 -700px var(--cor-1);
+}
+
+@media(max-width: 600px) {
+    #orcamento .contato-bg {
+        box-shadow: inset 0 -1100px var(--cor-1);
+    }
+}
