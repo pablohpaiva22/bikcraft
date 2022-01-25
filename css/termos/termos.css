@@ -16,3 +16,16 @@
     max-width: 75ch;
     line-height: 1.6;
 }
+
+@media(max-width: 800px) {
+    #termos .texto-inicial-bg {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .termos div:first-child {
+        margin-top: 30px;
+    }
+    .termos div:last-child {
+        margin-bottom: 30px;
+    }
+}
