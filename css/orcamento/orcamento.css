@@ -1,10 +1,20 @@
+#orcamento .contato-bg {
+    background: var(--cor-11);
+    box-shadow: inset 0 -700px var(--cor-1);
+}
+
 #orcamento .contato-info {
-    color: var(--cor-1)
+    color: var(--cor-1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: start;
+    gap: 0 20px;
 }
 
 #orcamento .contato-info h2 {
     padding-bottom: 20px;
     position: relative;
+    grid-column: 1/-1;
 }
 
 #orcamento .contato-info h2::before {
@@ -18,30 +28,119 @@
     left: -12px;    
 }
 
-.orcamento-escolha {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-}
-
-.orcamento-escolha div {
+#orcamento .contato-info label {
+    padding: 16px;
     background: var(--cor-10);
-    padding: 16px 32px 16px 16px;  
+    display: inline-block;
     border-radius: 4px;
-    flex-grow: 1;
+    margin-bottom: 16px;
+    border: 2px solid var(--cor-10);
+    cursor: pointer;
 }
 
-.orcamento-escolha div:hover {
+#orcamento .contato-info label:hover {
     background: var(--cor-9);
 }
 
-.orcamento-escolha input {
-    margin-right: 4px;
+#orcamento .contato-info label::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--cor-6);
+    border-radius: 50%;
+    margin-right: 8px;
 }
 
-.orcamento-escolha label {
-    color: var(--cor-4);
+#orcamento .contato-info input:checked + label {
+    background: var(--cor-0);
+    color: var(--cor-11);
+    border-color: var(--cor-p1);
 }
+
+#orcamento .contato-info input:checked + label::before {
+    box-shadow: inset 0 0 0 3px var(--cor-0), inset 0 0 0 6px var(--cor-7);
+}
+
+#orcamento #produto,
+#orcamento #plano {
+    display: none;
+    grid-column: 1/-1
+}
+
+#orcamento #produto label,
+#orcamento #plano label {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+}
+
+#orcamento #produto label span,
+#orcamento #plano label span {
+    text-align: end;
+}
+
+#orcamento #bikcraft:checked ~ #produto,
+#orcamento #seguros:checked ~ #plano {
+    display: inline-block;
+}
+
+#produto h2,
+#plano h2 {
+    margin-top: 20px;
+}
+
+#produto label span {
+    display: none;
+}
+
+#produto input:checked + label span{
+    display: block;
+}
+
+#orcamento .contato-info input {
+    opacity: 0;
+    position: absolute;
+}
+
+.bike-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 20px;
+    background: var(--cor-0);
+    color: var(--cor-11);
+    border-radius: 4px;
+    border: 2px solid var(--cor-p1);
+}
+
+.bike-desc ul li {
+    display: flex;
+    gap: 4px;
+    padding-bottom: 8px;
+}
+
+.bike-desc ul img {
+    width: 16px;
+}
+
+.bike-desc div img {
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.bike-desc {
+    display: none;
+}
+
+#nimbus-stark:checked ~ #nimbus-starkk,
+#magic-might:checked ~ #magic-mightt,
+#nebula-cosmic:checked ~ #nebula-cosmicc {
+    display: grid;
+}
+
+/* -------------------------------------------------------- */
 
 #orcamento .form h2 {
     position: relative;
@@ -69,11 +168,6 @@
 
 #orcamento .form div:nth-child(5) {
     grid-column: 1 / -1;
-}
-
-#orcamento .contato-bg {
-    background: var(--cor-11);
-    box-shadow: inset 0 -700px var(--cor-1);
 }
 
 @media(max-width: 600px) {

@@ -37,85 +37,134 @@
         </section>
 
         <main class="contato-bg">
-            <div class="contato container">
-                <section class="contato-info">
-                    <form action="./">
-                        <h2 class="font-1-xs cor-5">BIKCRAFT OU SEGUROS?</h2>
+            <form action="./" class="contato container">
+                <div class="contato-info">
+                    <h2 class="font-1-xs cor-5">BIKCRAFT OU SEGUROS?</h2>
 
-                        <div class="orcamento-escolha">
+                    <input type="radio" name="bikcraft" value="bikcraft" id="bikcraft">
+                    <label for="bikcraft">Bikcraft</label>
+
+                    <input type="radio" name="bikcraft" value="seguros" id="seguros">
+                    <label for="seguros">Seguro</label>
+
+                    <div id="produto">
+                        <h2 class="font-1-xs cor-5">ESCOLHA A SUA</h2>
+
+                        <input type="radio" name="produto" id="nimbus-stark">
+                        <label for="nimbus-stark">Nimbus-Stark <span>R$ 4999</span></label>
+
+                        <div class="font-1-xs cor-8 bike-desc" id="nimbus-starkk">
+                            <ul>
+                                <li> <img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+                                <li> <img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                                <li><img src="./img/icones/velocidade.svg" alt="">50 km/h</li>
+                                <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+                            </ul>
                             <div>
-                                <input type="radio" name="bikcraft-seguros" id="bikcraft">
-                                <label for="bikcraft">Bikcraft</label>
+                                <img src="./img/bicicletas/nimbus.jpg" alt="">
                             </div>
+                        </div>
 
+                        <input type="radio" name="produto" id="magic-might">
+                        <label for="magic-might">Magic-Might <span>R$ 2499</span></label>
+
+                        <div class="font-1-xs cor-8 bike-desc" id="magic-mightt">
+                            <ul>
+                                <li> <img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+                                <li> <img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                                <li><img src="./img/icones/velocidade.svg" alt="">50 km/h</li>
+                                <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+                            </ul>
                             <div>
-                                <input type="radio" name="bikcraft-seguros" id="seguros">
-                                <label for="seguros">Seguro</label>
+                                <img src="./img/bicicletas/magic.jpg" alt="">
                             </div>
                         </div>
-                    </form>
-                </section>
 
-                <section>
-                    <form class="form" action="./">
-                        <span class="font-1-xs cor-10">DADOS PESSOAIS</span>
+                        <input type="radio" name="produto" id="nebula-cosmic">
+                        <label for="nebula-cosmic">Nebula-cosmic <span>R$ 3999</span></label>
 
-                        <div>    
-                            <label for="nome-2">Nome</label>
-                            <input type="text" name="nome-2" id="nome-2" placeholder="Seu Nome">
+                        <div class="font-1-xs cor-8 bike-desc" id="nebula-cosmicc">
+                            <ul>
+                                <li> <img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+                                <li> <img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                                <li><img src="./img/icones/velocidade.svg" alt="">50 km/h</li>
+                                <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+                            </ul>
+                            <div>
+                                <img src="./img/bicicletas/nebula.jpg" alt="">
+                            </div>
                         </div>
+                    </div>
 
-                        <div>
-                            <label for="sobrenome">Sobrenome</label>
-                            <input type="text" name="sobrenome" id="sobrenome" placeholder="(22) 9999-9999">
-                        </div>
+                    <div id="plano">
+                        <h2 class="font-1-xs cor-5">ESCOLHA O PLANO</h2>
+                        
+                        <input type="radio" name="plano" id="prata">
+                        <label for="prata">Prata <span>R$ 199</span></label>
 
-                        <div>
-                            <label for="cpf">CPF</label>
-                            <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
-                        </div>
+                        <input type="radio" name="plano" id="ouro">
+                        <label for="ouro">Ouro <span>R$ 299</span></label>
+                    </div>
+                </div>
 
-                        <div>
-                            <label for="email-2">E-mail</label>
-                            <input type="email" name="email-2" id="email-2" placeholder="contato@email.com">
-                        </div>
-                   
-                        <span class="font-1-xs cor-10">ENTREGA</span>
+                <div class="form">
+                    <span class="font-1-xs cor-10">DADOS PESSOAIS</span>
 
-                        <div>
-                            <label for="cep">CEP</label>
-                            <input type="text" name="cep" id="cep">
-                        </div>
+                    <div>    
+                        <label for="nome-2">Nome</label>
+                        <input type="text" name="nome-2" id="nome-2" placeholder="Seu Nome">
+                    </div>
 
-                        <div>
-                            <label for="Numero">Número</label>
-                            <input type="text" name="Numero" id="Numero">
-                        </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="(22) 9999-9999">
+                    </div>
 
-                        <div>
-                            <label for="logradouro">Logradouro</label>
-                            <input type="text" name="logradouro" id="logradouro">
-                        </div>
+                    <div>
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+                    </div>
 
-                        <div>
-                            <label for="bairro">Bairro</label>
-                            <input type="text" name="bairro" id="bairro">
-                        </div>
+                    <div>
+                        <label for="email-2">E-mail</label>
+                        <input type="email" name="email-2" id="email-2" placeholder="contato@email.com">
+                    </div>
+                
+                    <span class="font-1-xs cor-10">ENTREGA</span>
 
-                        <div>
-                            <label for="cidade">Cidade</label>
-                            <input type="text" name="cidade" id="cidade">
-                        </div>
+                    <div>
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep">
+                    </div>
 
-                        <div>
-                            <label for="estado">Estado</label>
-                            <input type="text" name="estado" id="estado">
-                        </div>
+                    <div>
+                        <label for="Numero">Número</label>
+                        <input type="text" name="Numero" id="Numero">
+                    </div>
 
-                        <button class="botao">SOLICITAR ORÇAMENTO</button>
-                    </form>
-                </section>
-            </div>
+                    <div>
+                        <label for="logradouro">Logradouro</label>
+                        <input type="text" name="logradouro" id="logradouro">
+                    </div>
+
+                    <div>
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro" id="bairro">
+                    </div>
+
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade">
+                    </div>
+
+                    <div>
+                        <label for="estado">Estado</label>
+                        <input type="text" name="estado" id="estado">
+                    </div>
+
+                    <button class="botao">SOLICITAR ORÇAMENTO</button>
+                </div>
+            </form>
         </main>
 
         <footer class="footer">
