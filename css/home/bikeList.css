@@ -50,15 +50,16 @@
     border-radius: 8px;
 }
 
+#magic .bikeList-flex {
+    max-width: 1200px;
+    margin-bottom: 120px;
+}
+
 @media(max-width: 800px) {
     .bikeList-flex {
         gap: 20px;
     }
-}
-
-/* BikeList | magic-might */
-
-#magic .bikeList-flex {
-    max-width: 1200px;
-    margin-bottom: 120px;
+    #magic .bikeList-flex {
+        margin-bottom: 40px;
+    }
 }
