@@ -183,4 +183,8 @@
     #orcamento .contato-bg {
         box-shadow: inset 0 -1100px var(--cor-1);
     }
+    #orcamento .texto-inicial-bg {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
