@@ -7,3 +7,8 @@
     padding-top: 8px;
 }
 
+@media(max-width: 800px) {
+    #seguros > span {
+        padding-top: 20px;
+    }
+}

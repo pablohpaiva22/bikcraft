@@ -42,4 +42,8 @@
     .vantagens-container {
         grid-template-columns: 1fr;
     }
+    .vantagens h2 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
