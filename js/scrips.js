@@ -44,3 +44,17 @@ function accordionList(item, index) {
 faqAsk.forEach(accordionList)
 
 // -------------------------------------------------------
+
+const imagens = document.querySelectorAll('.bicicleta-img img')
+const galeria = document.querySelector('.bicicleta-img div')
+
+function trocarImagens(imagem) {
+    imagem.addEventListener('click', function(event) {
+        const img = event.currentTarget
+        galeria.prepend(img)
+    })
+}
+
+imagens.forEach(trocarImagens)
+
+// --------------------------------------------------------
