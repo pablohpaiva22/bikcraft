@@ -16,16 +16,20 @@
     margin-bottom: 104px;
 }
 
-.faq dl dt {
+.faq dl button {
     padding-bottom: 16px;
     position: relative;
     display: grid;
     grid-template-columns: 1fr auto;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+    background: none;
+    width: 100%;
+    text-align: start;
 }
 
-.faq dl dt::before {
+.faq dl button::before {
     content: "";
     display: inline-block;
     width: 12px;
@@ -36,7 +40,7 @@
     top: 8px;
 }
 
-.faq dl dt::after {
+.faq dl button::after {
     content: "";
     background: no-repeat url(../../img/icones/seta-abrir.svg);
     width: 14px;
@@ -44,12 +48,33 @@
     transition: 0.3s;
 }
 
-.faq dl dt:hover:after {
+.faq dl button:hover:after {
+    transform: rotate(180deg);
+}
+
+.faq dl button[aria-expanded="true"]:after {
     transform: rotate(180deg);
 }
 
 .faq dl dd {
     max-width: 75ch;
+    display: none;
+    animation: accordion 1s;
+}
+
+.faq dl dd.ativo {
+    display: block;
+    opacity: 1;
+}
+
+
+@keyframes accordion {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @media(max-width: 800px) {
