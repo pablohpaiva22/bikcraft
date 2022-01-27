@@ -41,7 +41,8 @@
     position: absolute
 }
 
-.header-navegacao a:hover::after {
+.header-navegacao a:hover::after,
+.header-navegacao a.ativar::after {
     width: 100%;
 }
 
