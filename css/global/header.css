@@ -38,7 +38,7 @@
     background: var(--cor-0);
     margin-top: 4px;
     transition: 0.3s;
-    position: absolute
+    position: absolute;
 }
 
 .header-navegacao a:hover::after,
@@ -56,6 +56,9 @@
         background: var(--cor-10);
     }
     .header-navegacao a:hover::after {
+        width: 0;
+    }
+    .header-navegacao a.ativar::after {
         width: 0;
     }
 }
