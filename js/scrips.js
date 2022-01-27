@@ -9,4 +9,15 @@ function ativarLink(item) {
 
 links.forEach(ativarLink)
 
+// ------------------------------------------------------
 
+const parametros = new URLSearchParams(location.search)
+
+function ativarParametros(parametro) {
+    const element = document.getElementById(parametro)
+    element.checked = true
+}
+
+parametros.forEach(ativarParametros)
+
+// -------------------------------------------------------
