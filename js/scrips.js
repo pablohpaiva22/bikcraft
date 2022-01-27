@@ -15,9 +15,12 @@ const parametros = new URLSearchParams(location.search)
 
 function ativarParametros(parametro) {
     const element = document.getElementById(parametro)
-    element.checked = true
+    if(element) {
+        element.checked = true
+    }
 }
 
 parametros.forEach(ativarParametros)
 
 // -------------------------------------------------------
+
