@@ -58,3 +58,7 @@ function trocarImagens(imagem) {
 imagens.forEach(trocarImagens)
 
 // --------------------------------------------------------
+
+if(window.SimpleAnime) {
+    new SimpleAnime()
+}
