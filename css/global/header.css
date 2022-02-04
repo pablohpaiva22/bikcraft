@@ -52,8 +52,14 @@
         border-radius: 4px;
         padding: 12px;
     }
+    .header-navegacao a.ativar {
+        color: var(--cor-12);
+        background: var(--cor-5);
+    }
     .header-navegacao a:hover {
         background: var(--cor-10);
+        color: var(--cor-0);
+
     }
     .header-navegacao a:hover::after {
         width: 0;
