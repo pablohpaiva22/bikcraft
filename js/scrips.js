@@ -1,61 +1,77 @@
-const links = document.querySelectorAll('.header-navegacao a')
-const url = document.location.href
+function linkAtivo() {
+    const links = document.querySelectorAll('.header-navegacao a')
+    const url = document.location.href
 
-function ativarLink(item) {
-    if(url.includes(item.href)) {
-        item.classList.add('ativar')
+    function ativarLink(item) {
+        if(url.includes(item.href)) {
+            item.classList.add('ativar')
+        }
     }
+
+    links.forEach(ativarLink)
 }
 
-links.forEach(ativarLink)
+linkAtivo()
 
 // ------------------------------------------------------
 
-const parametros = new URLSearchParams(location.search)
+function marcarItems() {
+    const parametros = new URLSearchParams(location.search)
 
-function ativarParametros(parametro) {
-    const element = document.getElementById(parametro)
-    if(element) {
-        element.checked = true
+    function ativarParametros(parametro) {
+        const element = document.getElementById(parametro)
+        if(element) {
+            element.checked = true
+        }
     }
+
+    parametros.forEach(ativarParametros)
 }
 
-parametros.forEach(ativarParametros)
+marcarItems()
 
 // -------------------------------------------------------
 
-const faqAsk = document.querySelectorAll('.faq dt')
-const faqAnswer = document.querySelectorAll('.faq dd')
-const button = document.querySelectorAll('.faq button')
+function mostrarLista() {
+    const faqAsk = document.querySelectorAll('.faq dt')
+    const faqAnswer = document.querySelectorAll('.faq dd')
+    const button = document.querySelectorAll('.faq button')
 
-function accordionList(item, index) {
-    item.addEventListener('click', function() { 
-        faqAnswer[index].classList.toggle('ativo')
-        const id = button[index].getAttribute('aria-expanded')
-        if(id == 'true') {
-            button[index].setAttribute('aria-expanded', 'false')
-        }
-        if(id == 'false') {
-            button[index].setAttribute('aria-expanded', 'true')
-        }
-    })
+    function accordionList(item, index) {
+        item.addEventListener('click', function() { 
+            faqAnswer[index].classList.toggle('ativo')
+            const id = button[index].getAttribute('aria-expanded')
+            if(id == 'true') {
+                button[index].setAttribute('aria-expanded', 'false')
+            }
+            if(id == 'false') {
+                button[index].setAttribute('aria-expanded', 'true')
+            }
+        })
+    }
+
+    faqAsk.forEach(accordionList)
 }
 
-faqAsk.forEach(accordionList)
+mostrarLista()
 
 // -------------------------------------------------------
 
-const imagens = document.querySelectorAll('.bicicleta-img img')
-const galeria = document.querySelector('.bicicleta-img div')
+function alterarImagens() {
+    const imagens = document.querySelectorAll('.bicicleta-img img')
+    const galeria = document.querySelector('.bicicleta-img div')
 
-function trocarImagens(imagem) {
-    imagem.addEventListener('click', function(event) {
-        const img = event.currentTarget
-        galeria.prepend(img)
-    })
+    function trocarImagens(imagem) {
+        imagem.addEventListener('click', function(event) {
+            const img = event.currentTarget
+            galeria.prepend(img)
+        })
+    }
+
+    imagens.forEach(trocarImagens)
 }
 
-imagens.forEach(trocarImagens)
+alterarImagens()
 
 // --------------------------------------------------------
 
