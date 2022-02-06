@@ -43,6 +43,10 @@
     .introducao-description {
         padding-bottom: 32px;
     }
+    .introducao-description h1 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
     .introducao-img img {
         height: 300px;
         width: 100%;
