@@ -7,4 +7,4 @@ Também adicionado algumas funcionalidades utilizando JavaScript.
 
 ## Link
 
-https://pablohpaiva22.github.io/bikcraft-origamid/
+https://pablohpaiva22.github.io/bikcraft/
