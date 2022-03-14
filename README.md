@@ -1,7 +1,7 @@
 # <h1> 😃 Bikcraft</h1> 
 Site de venda de bicicletas elétricas 🚲
 
-<img src="img/Readme/bicicletas.PNG" width="300"/> <img src="img/Readme/contato.PNG" width="300"/> <img src="img/Readme/index.PNG" width="300"/> <img src="img/Readme/orcamento.PNG" width="300"/> <img src="img/Readme/seguros.PNG" width="300"/> <img src="img/Readme/magic-might.png" width="300"/>
+<img src="public/img/Readme/bicicletas.PNG" width="300"/> <img src="public/img/Readme/contato.PNG" width="300"/> <img src="public/img/Readme/index.PNG" width="300"/> <img src="public/img/Readme/orcamento.PNG" width="300"/> <img src="public/img/Readme/seguros.PNG" width="300"/> <img src="public/img/Readme/magic-might.png" width="300"/>
 
 ## Sobre o projeto ⚡
 Projeto final do curso HTML E CSS da plataforma [ORIGAMID](https://www.origamid.com/), criado utilizando HTML e CSS e suas funcionalidades:
