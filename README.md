@@ -1,10 +1,15 @@
-# Site - Bikcraft
-Projeto final do curso HTML E CSS da plataforma [ORIGAMID](https://www.origamid.com/)
+# <h1> 😃 Bikcraft</h1> 
+Site de venda de bicicletas elétricas 🚲
 
-## Sobre o projeto
-Site criado no curso da [ORIGAMID](https://www.origamid.com/) utlizando HTML semântico e CSS com vários recursos como GRID, FLEXBOX e mais.
-Também adicionado algumas funcionalidades utilizando JavaScript.
+<img src="img/Readme/bicicletas.PNG" width="300"/> <img src="img/Readme/contato.PNG" width="300"/> <img src="img/Readme/index.PNG" width="300"/> <img src="img/Readme/orcamento.PNG" width="300"/> <img src="img/Readme/seguros.PNG" width="300"/> <img src="img/Readme/magic-might.png" width="300"/>
 
-## Link
+## Sobre o projeto ⚡
+Projeto final do curso HTML E CSS da plataforma [ORIGAMID](https://www.origamid.com/), criado utilizando HTML e CSS e suas funcionalidades:
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="32" width="32"/> Semântica | Acessibilidade | Formulários <br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="32" width="32"/> Posicionamento | Display | Box Model | Variaveis CSS | Animation | Media Queries | Grid | FlexBox <br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" width="32"/> Também adicionado algumas funções com JavaScript.
+
+## Acesse a página ✔️
 
 https://pablohpaiva22.github.io/bikcraft/
