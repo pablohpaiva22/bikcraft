@@ -78,3 +78,5 @@ alterarImagens()
 if(window.SimpleAnime) {
     new SimpleAnime()
 }
+
+// TESTEEE
