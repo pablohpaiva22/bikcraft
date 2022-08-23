@@ -1,4 +1,4 @@
-# <h1> 😃 Bikcraft</h1> 
+# <h1> Bikcraft</h1> 
 Site de venda de bicicletas elétricas 🚲
 
 <img src="public/img/Readme/bicicletas.PNG" width="300"/> <img src="public/img/Readme/contato.PNG" width="300"/> <img src="public/img/Readme/index.PNG" width="300"/> <img src="public/img/Readme/orcamento.PNG" width="300"/> <img src="public/img/Readme/seguros.PNG" width="300"/> <img src="public/img/Readme/magic-might.png" width="300"/>
